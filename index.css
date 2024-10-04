@@ -66,6 +66,7 @@ body {
     color:#9AABD8;
     text-align: center;
     margin-top: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #winner {
@@ -73,5 +74,4 @@ body {
     margin-top: 50px;
     color: beige;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
