@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <p class="score-board" id="home-score">0</p>
+                <div class="button-container">
+                    <button id="home-1" onclick="addScore('home', 1)">+1</button>
+                    <button id="home-2" onclick="addScore('home', 2)">+2</button>
+                    <button id="home-3" onclick="addScore('home', 3)">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <p class="score-board" id="guest-score">0</p>
+                <div class="button-container">
+                    <button id="guest-1" onclick="addScore('guest', 1)">+1</button>
+                    <button id="guest-2" onclick="addScore('guest', 2)">+2</button>
+                    <button id="guest-3" onclick="addScore('guest', 3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="reset-btn">
+            <button onclick="resetBtn()">RESET</button>
+            <button onclick="announceWinner()">Announce</button>
+        </div>
+        <p id="winner"></p>
+        <p id="footer">Developed by Mohsen Deniku</p>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+@font-face {
+    src: url("./CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimer;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: CursedTimer;
+}
+
+.container h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #9AABD8;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.container p {
+    font-family: CursedTimer;
+    font-size: 90px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F94F6D;
+    padding: 10px;
+}
+
+.score-board {
+    width: 155px;
+    height: 140px;
+    background: #080001;
+}
+
+.button-container button {
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    background: #1B244A;
+    border-radius: 5px;
+    font-family: CursedTimer;
+}
+
+#reset-btn {
+    text-align: center;
+}
+#reset-btn button{
+    font-family: CursedTimer;
+    padding: 20px 30px;
+    font-size: 40px;
+    background-color: #1B244A;
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+}
+#footer {
+    color:#9AABD8;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#winner {
+    text-align: center;
+    margin-top: 50px;
+    color: beige;
+    font-size: 30px;
+}
