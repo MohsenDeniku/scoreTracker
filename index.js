@@ -8,6 +8,14 @@ function addScore(team, score) {
         guestScore = parseInt(guestScore) + score
         document.getElementById("guest-score").innerText = guestScore
     }
+    if (homeScore > guestScore) {
+        document.getElementById('home-title').style.color = 'green'
+    } else if (homeScore < guestScore) {
+        document.getElementById('guest-title').style.color = 'green'
+    } else { 
+        document.getElementById('guest-title').style.color = 'orange'
+        document.getElementById('home-title').style.color = 'orange'
+    }
 }
 
 function resetBtn() {
@@ -39,3 +47,4 @@ function announceWinner() {
     document.getElementById('guest-2').disabled = true
     document.getElementById('guest-3').disabled = true
 }
+
