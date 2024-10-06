@@ -37,6 +37,8 @@ function resetBtn() {
     document.getElementById('announce-btn-el').style.border = '1px solid lightgreen'
     document.getElementById('reset-btn-el').style.color = 'lightgreen'
     document.getElementById('reset-btn-el').style.border = "1px solid lightgreen"
+    document.getElementById('guest-title').style.color = '#9AABD8'
+    document.getElementById('home-title').style.color = "#9AABD8"
 }
 
 function announceWinner() {
