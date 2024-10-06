@@ -32,6 +32,9 @@ function resetBtn() {
     document.getElementById('guest-1').disabled = false
     document.getElementById('guest-2').disabled = false
     document.getElementById('guest-3').disabled = false
+    document.getElementById('announce-btn-el').disabled = false
+    document.getElementById('announce-btn-el').style.color = 'lightgreen'
+    document.getElementById('announce-btn-el').style.borderColor = 'lightgreen'
 }
 
 function announceWinner() {
@@ -50,5 +53,8 @@ function announceWinner() {
     document.getElementById('guest-3').disabled = true
     document.getElementById('reset-btn-el').style.borderColor = "orange"
     document.getElementById('reset-btn-el').style.color = "orange"
+    document.getElementById('announce-btn-el').disabled = true
+    document.getElementById('announce-btn-el').style.border = 'white'
+    document.getElementById('announce-btn-el').style.color = 'white'
 }
 
