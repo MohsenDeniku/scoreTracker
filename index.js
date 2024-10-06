@@ -10,8 +10,10 @@ function addScore(team, score) {
     }
     if (homeScore > guestScore) {
         document.getElementById('home-title').style.color = 'green'
+        document.getElementById('guest-title').style.color = '#9AABD8'
     } else if (homeScore < guestScore) {
         document.getElementById('guest-title').style.color = 'green'
+        document.getElementById('home-title').style.color = "##9AABD8"
     } else { 
         document.getElementById('guest-title').style.color = 'orange'
         document.getElementById('home-title').style.color = 'orange'
