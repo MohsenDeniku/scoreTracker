@@ -13,7 +13,7 @@ function addScore(team, score) {
         document.getElementById('guest-title').style.color = '#9AABD8'
     } else if (homeScore < guestScore) {
         document.getElementById('guest-title').style.color = 'green'
-        document.getElementById('home-title').style.color = "##9AABD8"
+        document.getElementById('home-title').style.color = "#9AABD8"
     } else { 
         document.getElementById('guest-title').style.color = 'orange'
         document.getElementById('home-title').style.color = 'orange'
@@ -34,7 +34,9 @@ function resetBtn() {
     document.getElementById('guest-3').disabled = false
     document.getElementById('announce-btn-el').disabled = false
     document.getElementById('announce-btn-el').style.color = 'lightgreen'
-    document.getElementById('announce-btn-el').style.borderColor = 'lightgreen'
+    document.getElementById('announce-btn-el').style.border = '1px solid lightgreen'
+    document.getElementById('reset-btn-el').style.color = 'lightgreen'
+    document.getElementById('reset-btn-el').style.border = "1px solid lightgreen"
 }
 
 function announceWinner() {
