@@ -3,10 +3,10 @@ let guestScore = document.getElementById("guest-score").textContent
 function addScore(team, score) {
     if (team == 'home') {
         homeScore = parseInt(homeScore) + score
-        document.getElementById("home-score").innerText = homeScore
+        document.getElementById("home-score").textContent = homeScore
     } else if (team == 'guest') {
         guestScore = parseInt(guestScore) + score
-        document.getElementById("guest-score").innerText = guestScore
+        document.getElementById("guest-score").textContent = guestScore
     }
     if (homeScore > guestScore) {
         document.getElementById('home-title').style.color = 'green'
@@ -46,5 +46,7 @@ function announceWinner() {
     document.getElementById('guest-1').disabled = true
     document.getElementById('guest-2').disabled = true
     document.getElementById('guest-3').disabled = true
+    document.getElementById('reset-btn-el').style.borderColor = "orange"
+    document.getElementById('reset-btn-el').style.color = "orange"
 }
 

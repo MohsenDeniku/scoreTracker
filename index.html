@@ -5,7 +5,7 @@
     <body>
         <div class="container">
             <div>
-                <h3>HOME</h3>
+                <h3 id="home-title">HOME</h3>
                 <p class="score-board" id="home-score">0</p>
                 <div class="button-container">
                     <button id="home-1" onclick="addScore('home', 1)">+1</button>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div>
-                <h3>GUEST</h3>
+                <h3 id="guest-title">GUEST</h3>
                 <p class="score-board" id="guest-score">0</p>
                 <div class="button-container">
                     <button id="guest-1" onclick="addScore('guest', 1)">+1</button>
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div id="reset-btn">
-            <button onclick="resetBtn()">RESET</button>
+            <button onclick="resetBtn()" id="reset-btn-el">RESET</button>
             <button onclick="announceWinner()">Announce</button>
         </div>
         <p id="winner"></p>
