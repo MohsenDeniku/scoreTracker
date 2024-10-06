@@ -58,7 +58,7 @@ function announceWinner() {
     document.getElementById('reset-btn-el').style.borderColor = "orange"
     document.getElementById('reset-btn-el').style.color = "orange"
     document.getElementById('announce-btn-el').disabled = true
-    document.getElementById('announce-btn-el').style.border = 'white'
+    document.getElementById('announce-btn-el').style.border = '1px solid white'
     document.getElementById('announce-btn-el').style.color = 'white'
 }
 
